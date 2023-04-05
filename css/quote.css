@@ -1,0 +1,40 @@
+
+
+.quote{
+  color: var(--purple);
+  background: rgba(255, 255, 255, 0.2);
+
+  padding: 1.5rem;
+  margin-block-start:2.5rem;
+  margin-block-end: 5rem;
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(to right, rgba(255,255,255,.6),transparent) 1;
+  border-radius: 1.5rem;
+  
+}
+
+.quote span{
+  font: var(--body2)
+}
+
+.quote-image{
+  text-align: center;
+}
+
+
+@media screen and (min-width:1024px){
+  .quote{
+    text-align: center;
+    padding: 5rem;
+  }
+  .quote span{
+    font: var(--headline5);
+    font-weight: 400;
+  }
+  .quote p{
+    font-size: 2rem;
+    font: var(--headline4);
+  
+  }
+}

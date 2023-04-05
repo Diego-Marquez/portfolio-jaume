@@ -1,0 +1,28 @@
+.quote-personal{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: center;
+  padding-block: 2.5rem;
+  padding-inline: 1rem;
+}
+
+.quote-personal p{
+  font: 400 1.5rem/2.3rem var(--fontBase)
+}
+
+.quote-personal span{
+  font: 700 1.5rem/2.3rem var(--fontBase)
+}
+
+.quote-personal a img{
+  block-size:5rem;
+}
+
+@media screen and (min-width:1024px){
+  .quote-personal{
+    padding-block: 10.5rem;
+    padding-inline: 14.5rem;
+  }
+
+}
